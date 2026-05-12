@@ -169,7 +169,7 @@ https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Movies_HD_BTS/output/index.mpd?
 #EXTHTTP:{"cookie":"__hdnea__=st=1775131200~exp=1775152800~acl=/*~hmac=2dae0b4f0f0644367ed24ab627e46c0037f02e5e5dedea781eae13781e453bec"}
 https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?
 
-#EXTINF:-1 tvg-id="1108" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD1_Hindi.png",Star Sports HD1 Hindi
+#EXTINF:-1 tvg-id="1108" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD1_Hindi.png",Star Sports 1 HD Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
