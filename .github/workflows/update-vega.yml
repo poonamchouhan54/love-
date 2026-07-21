@@ -1,0 +1,24 @@
+name: Update Vega M3U
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and Update Vega.m3u
+        run: |
+          curl -s "https://hostfreescripts.nfy.fyi/?i=1" > Vega.m3u
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update Vega.m3u playlist"
+          file_pattern: Vega.m3u
+          
